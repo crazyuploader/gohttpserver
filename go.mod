@@ -18,7 +18,7 @@ require (
 	github.com/pkg/errors v0.8.0 // indirect
 	github.com/shogo82148/androidbinary v0.0.0-20180627093851-01c4bfa8b3b5
 	github.com/smartystreets/goconvey v1.6.4 // indirect
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.10.0
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/text v0.14.0
 	howett.net/plist v0.0.0-20201203080718-1454fab16a06 // indirect
