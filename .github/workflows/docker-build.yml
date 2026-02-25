@@ -15,7 +15,7 @@ jobs:
     steps:
       # Checkout the repo
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # Set up QEMU for cross-platform emulation
       - name: Set up QEMU
