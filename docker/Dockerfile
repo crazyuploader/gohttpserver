@@ -1,4 +1,4 @@
-FROM golang:1.24
+FROM golang:1.27
 WORKDIR /app/gohttpserver
 ADD . /app/gohttpserver
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags '-X main.VERSION=docker' -o gohttpserver
